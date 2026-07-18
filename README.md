@@ -81,12 +81,12 @@ Start the development server:
 
 1. Each challenge receives a target time through props.
 
-Example:
+    Example:
 
-    <TimerChallenge 
-      title="Easy" 
-      targetTime={1} 
-    />
+        <TimerChallenge 
+          title="Easy" 
+          targetTime={1} 
+        />
 
 2. When the user starts a challenge:
    - An interval starts counting down every 10 milliseconds.
